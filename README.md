@@ -11,13 +11,17 @@ Pablo López-Matencio, Javier Vales-Alonso, and Enrique Costa-Montenegro, “ANT
 > Split / Bol, Croatia, 2022, pp. 1-4, 
 > [https://doi.org/10.23919/SpliTech55088.2022.9854229](https://doi.org/10.23919/SpliTech55088.2022.9854229)
 
-
 This work presents a new RFID-based application for sports activity monitoring.
 Specifically, the developed system aims to detect a boxing speed bag's periodic pattern of movements during a training session.
 
 ## Operation overview
 A speed bag is a light, air-filled, and small drop-shaped punching that may be anchored to the ceiling 
 or a top-placed rebound platform
+
+<div align="center" style="margin-top: 0.7cm; margin-bottom: 20px;">
+  <img src="figs/esquema3D.png" width="350">
+  <p><b>Figure 1:</b> Speed bag RFID-based system scheme.</p>
+</div>
 
 
 A typical workout with a speed bag may attack the bag for about 3 or 5 minutes and rest for one minute between rounds.
@@ -36,7 +40,6 @@ The following table contains the main parameters of out system model:
 | **Parameter**                                   | **Description**                                                                   |
 |-------------------------------------------------|-----------------------------------------------------------------------------------|
 | Frame interrogation protocol                   | FSA [ISO18000] with frame length 1 slot                                          |
-| Distance between Tx-Rx antennas ($d(t)$)       | Computed with eq. (1)                                                            |
 | Initial distance between Tx-Rx antennas ($d_0$)| in [1,10] m (at $\psi(t){=}\psi_0$ position)                                     |
 | Reader antenna                                 | Patch panel (gain of 8 dBi)                                      |
 | Reader's antenna tilt ($\theta_1$)             | Aimed to the center of the tag's antenna                                         |
