@@ -55,7 +55,8 @@ The following table contains the main parameters of out system model:
 | Tag modulation factor                          | 0.25                                                                             |
 | On object gain penalty                         | 1.1 dB                                                           |
 | Vertical distance of the tag to the hook ($l$)| 22 cm                                                                            |
-| Radius of the speedbag at tag's height ($h$)   | 27/$\pi\approx 8.6$ cm                                                           |
+| Radius of the speedbag at tag's height ($h$)   | 27/π ≈ 8.6 cm
+                                                           |
 | Angle of the tag's antenna with $x-\text{axis}$ ($\psi_0$)| 21.34°                                                            |
 | Mean oscillation frequency of the speedbag ($f$)| 4 Hz                                                                             |
 | Time between tag's readings ($T_\text{reader}$)| 1/35 s                                                                           |
