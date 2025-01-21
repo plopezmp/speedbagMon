@@ -41,29 +41,25 @@ The following table contains the main parameters of out system model:
 |-------------------------------------------------|-----------------------------------------------------------------------------------|
 | Frame interrogation protocol                   | FSA [ISO18000] with frame length 1 slot                                          |
 | Initial distance between Tx-Rx antennas ($d_0$)| in [1,10] m (at $\psi(t){=}\psi_0$ position)                                     |
-| Reader antenna                                 | Patch panel (gain of 8 dBi)                                      |
+| Reader antenna                                 | Patch panel (gain of 8 dBi)                                                      |
 | Reader's antenna tilt ($\theta_1$)             | Aimed to the center of the tag's antenna                                         |
 | Tag's antenna tilt ($\theta_2$)                | Aimed to the center of the reader's antenna                                      |
 | Antenna azimuth                                | 0, the tag's and reader's antennas are in a plane                                |
-| Tag antenna                                    | Half-wave dipole (gain of 2 dBi)                                |
+| Tag antenna                                    | Half-wave dipole (gain of 2 dBi)                                                 |
 | Tag power-up threshold ($\text{IC}_{th}$)      | -19 dBm                                                                          |
 | Reader sensitivity threshold ($\text{S}_{th}$) | -80 dBm                                                                          |
-| Frequency                                      | 865.7 MHz                                                              |
+| Frequency                                      | 865.7 MHz                                                                        |
 | Transmission power                             | 27 dBm                                                                           |
-| Backscatter-Link Frequency (BLF)              | 320 kHz                                                       |
+| Backscatter-Link Frequency (BLF)              | 320 kHz                                                                          |
 | Noise level                                    | -120.87 dBm                                                                      |
 | Channel model                                  | Line-of-sight with Rician fading                                                 |
 | Rician K-factor                                | 3 dB                                                                             |
 | Tag attached material                          | Plastic                                                                          |
 | Tag modulation factor                          | 0.25                                                                             |
-| On object gain penalty                         | 1.1 dB                                                           |
+| On object gain penalty                         | 1.1 dB                                                                           |
 | Vertical distance of the tag to the hook ($l$)| 22 cm                                                                            |
-| Radius of the speedbag at tag's height ($h$)   | 27/π ≈ 8.6 cm              
-                                                           |
+| Radius of the speedbag at tag's height ($h$)   | 27/π ≈ 8.6 cm                                                                    |
 | Angle of the tag's antenna with $x-\text{axis}$ ($\psi_0$)| 21.34°                                                            |
 | Mean oscillation frequency of the speedbag ($f$)| 4 Hz                                                                             |
 | Time between tag's readings ($T_\text{reader}$)| 1/35 s                                                                           |
-| EPC length                                     | 96 bits                                                      
-|
-
-Esta es la tabla
+| EPC length                                     | 96 bits                                                                          |
