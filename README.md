@@ -19,7 +19,7 @@ A speed bag is a light, air-filled, and small drop-shaped punching that may be a
 or a top-placed rebound platform
 
 <div align="center" style="margin-top: 0.7cm; margin-bottom: 20px;">
-  <img src="figs/esquem3D.png" width="350">
+  <img src="figs/esquem3d.png" width="350">
   <p><b>Figure 1:</b> Speed bag RFID-based system scheme.</p>
 </div>
 
