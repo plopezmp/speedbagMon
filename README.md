@@ -63,5 +63,7 @@ The following table contains the main parameters of out system model:
 | Angle of the tag's antenna with $x-\text{axis}$ ($\psi_0$)| 21.34°                                                            |
 | Mean oscillation frequency of the speedbag ($f$)| 4 Hz                                                                             |
 | Time between tag's readings ($T_\text{reader}$)| 1/35 s                                                                           |
-| EPC length                                     | 96 bits                                                       |
+| EPC length                                     | 96 bits                                                      
+|
 
+Esta es la tabla
